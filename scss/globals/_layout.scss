@@ -1,0 +1,20 @@
+.container {
+    width: min(100% - 2rem, 70rem);
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap, 1rem);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap, 1rem);
+}
+
+.flow-space > * + * {
+    margin-top: var(--spacer, 1rem);
+}

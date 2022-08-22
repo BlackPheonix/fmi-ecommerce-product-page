@@ -1,0 +1,21 @@
+// const Calculate = {
+// 	sum(inputArray) {
+// 	let totalSum = 0;
+//     inputArray.forEach(item => {
+//       totalSum = totalSum + item;
+//     })
+//     return totalSum
+// 	}
+// }
+
+// const Calculate = {
+//     sum(inputArray) {
+//         const initialValue = 0
+//         const sumWithInitial = inputArray.reduce((previousValue, currentValue) => {
+//             return previousValue + currentValue
+//         }, initialValue)
+//         return sumWithInitial
+//     }
+// }
+
+// console.log(Calculate.sum([4,3,5]))
